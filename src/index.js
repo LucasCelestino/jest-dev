@@ -8,4 +8,9 @@ function capitalize(name)
     return fullString;
 }
 
-export {capitalize};
+function reverseString(string)
+{
+    return string.split("").reverse().join("");
+}
+
+export {capitalize,reverseString}

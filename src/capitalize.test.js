@@ -1,4 +1,4 @@
-import capitalize from './capitalize'
+import {capitalize} from './index'
 
 test('Deve retornar uma string com o primeiro caractere em maiúsculo', () => {
   let name = 'lucas';

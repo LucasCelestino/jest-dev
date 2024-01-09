@@ -59,7 +59,7 @@ function caesarCipher(string)
         return alphabet[indexLetter + 3];
     })
 
-    console.log(cipheredString.join(''));
+    return cipheredString.join('');
 
 }
 

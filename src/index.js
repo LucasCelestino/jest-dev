@@ -63,6 +63,5 @@ function caesarCipher(string)
 
 }
 
-caesarCipher('lucas celestino');
-// [oxfdv]
+export {capitalize,reverseString,caesarCipher,calculator}
 

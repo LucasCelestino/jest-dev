@@ -36,6 +36,14 @@ function caesarCipher(string)
     if(string.length == 1)
     {
         let indexLetter = alphabet.indexOf(string);
+
+        if((indexLetter + 3) > 26)
+        {
+            let newIndex = ((indexLetter + 3) - 26);
+
+            return alphabet[newIndex];
+        }
+        
         return alphabet[indexLetter + 3];
     }
 
